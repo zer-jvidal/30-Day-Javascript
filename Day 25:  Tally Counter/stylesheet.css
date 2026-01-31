@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #808080;
+    color: #f0f0f0;
+    padding: 20rem;
+}
+
+#dotPin {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background: #f0f0f0;
+    color: #111;
+    cursor: pointer;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 2rem;
+}
+
+#dotPin:hover {
+    background: #111;
+    color: #f0f0f0;
+}
+
+#dotPin:active {
+    background: #f0f0f0;
+    color: #111;
+}
